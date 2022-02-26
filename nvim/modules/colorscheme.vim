@@ -1,0 +1,2 @@
+colorscheme gruvbox
+"colorscheme wal

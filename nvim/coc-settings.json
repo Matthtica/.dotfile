@@ -1,0 +1,19 @@
+{
+    "languageserver": {
+        "coc-clangd": {
+            "command": "clangd",
+            "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],
+            "rootPatterns": ["compile_flags.txt", "compile_commands.json"]
+        },
+        "cmake": {
+            "command": "cmake-language-server",
+            "filetypes": ["cmake"],
+            "rootPatterns": [
+                "build/"
+            ],
+            "initializationOptions": {
+                "buildDirectory": "build"
+            }
+        }
+    }
+}
